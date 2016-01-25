@@ -1,0 +1,39 @@
+body{ 
+	text-decoration:none; 
+	font:bold 7pt Tahoma, Verdana, sans-serif; 
+}
+
+body,td,th {
+	text-decoration:none; 
+	font:bold 7pt Tahoma, sans-serif;
+}
+
+input {
+	text-decoration:none; 
+	font:bold 6.8pt Tahoma, sans-serif;
+	color:#FFFF00;	
+	background-color:#3388CC;
+	border-top-color:#53A8EC;
+	border-left-color:#53A8EC;
+	border-right-color:#53A8EC; 
+	border-bottom-color:#53A8EC;  
+	border-top-width:1px;  
+	border-left-width:1px;
+	border-right-width:1px;  			
+	border-bottom-width:1px;
+	border-style:outset;
+}
+
+select {
+	text-decoration:none; 
+	font:bold 6.8pt Tahoma, sans-serif;
+	color:#000066;	
+	border-top-color:#53A8EC;
+	border-left-color:#53A8EC;
+	border-right-color:#53A8EC; 
+	border-bottom-color:#53A8EC;  
+	border-top-width:1px;  
+	border-left-width:1px;
+	border-right-width:1px;  			
+	border-bottom-width:1px;
+}

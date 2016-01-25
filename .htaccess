@@ -1,0 +1,10 @@
+Options +MultiViews
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ /www.hotelbahosi.com [L]
+RewriteCond %{HTTP_HOST} ^hotelbahosi.com [NC]
+RewriteRule ^(.*)$ http://www.hotelbahosi.com/$1 [L,R=301,NC]
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]

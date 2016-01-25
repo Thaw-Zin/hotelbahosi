@@ -1,0 +1,2026 @@
+html, body
+{
+	height: 100%;
+}
+div.container-fluid, div.container
+{
+	width:100%;
+	height: 100vh;
+}
+.nopadding {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+.left4
+{
+	padding-left: 4px;
+}
+.right4
+{
+	padding-right: 4px;
+}
+.icon-prev:before,.icon-next:before,.glyphicon-chevron-left:before,.glyphicon-chevron-right:before
+{
+	content:none !important;
+}
+h3
+{
+	font-size: 1.5em;
+}
+h4
+{
+	font-size: 1.2em;
+}
+.padding0
+{
+	padding:0;
+}
+a:link
+{
+	text-decoration: none;
+}
+.carousel-control
+{
+	background:0 !important;
+	opacity: 1 !important;
+}
+/**** display none *******/
+div.mb-dollar
+{
+	display: none;
+}
+div.tablet-menu
+{
+	display: none;
+}
+/****** side bar *********/
+div.sidebar
+{
+	height: 100vh;
+}
+div.logo img
+{
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+}
+div.menu
+{
+	padding:0;
+	margin:0;
+}
+div.menu ul
+{
+	padding:0;
+	margin:0;
+}
+div.menu ul li
+{
+	text-align:left;
+	list-style-type:none;
+	width:100%;
+	line-height: 2em;
+}
+div.menu ul li a
+{
+	display:block;
+	color:#6e6e6e;
+	font-size:1.3em;
+	line-height:2.8em;
+	font-weight:450;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	padding-left:25%;
+}
+div.menu ul li a:hover
+{
+	text-decoration:none;
+	color:#fff !important;
+	background-color:#9d2321 !important;
+}
+
+.menu-current
+{
+	color:#fff !important;
+	background-color:#9d2321 !important;
+}
+p.reservation-title
+{
+	padding:0.6em 0;
+	background-color:#4a9f9c;
+	margin-top:0.6em;
+	margin-bottom: 0.6em;
+	color:#fff;
+	text-align:center;
+	font-size:1.2em;
+	font-weight:bold;
+}
+div.reservation div.form-group
+{
+	margin-bottom: 0.5em;
+}
+div.reservation div.form-group input
+{
+	border-radius: 0px;
+	color:#9e2925 !important;
+}
+div.reservation div.form-group .btn-action
+{
+	background-color:#9d2321;
+	color:#fff;
+}
+div.reservation div.form-group .btn-action:hover
+{
+	background-color: #616161;
+}
+ul.check-booking
+{
+	padding:0;
+	margin-left:1.1em;
+}
+ul.check-booking li
+{
+	list-style-type: none;
+	list-style-image: url('../booking-images/anwser1.png');
+}
+div.footer-logo img
+{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+span.poweredby
+{
+	font-size:1em;
+}
+span.sitemap a
+{
+	font-size:1em;
+	color:#9e2321;
+}
+span.poweredby a
+{
+	font-size:12px; color:#9e2321; text-decoration:none;
+}
+/******* *****/
+#homeslide-arrow
+{
+	display: none;
+}
+div.home-slider
+{
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+	z-index:-1;
+	padding:0;
+}
+div.home-content
+{
+	height: 100vh;
+	bottom:0;
+}
+div.red-box
+{
+	background-color:#9e2925;
+	padding:2em 1em 2em 1em;
+	border-radius:2px;
+}
+div.red-box p
+{
+	color:#f5eae9;
+	font-size:1.2em;
+	text-align:center;
+	margin:0 auto;
+	width:100%;
+}
+div.review
+{
+	background-color:rgba(100, 197, 196, 0.9);
+	margin-bottom:0.5em;
+}
+div.review a {
+	display: block;
+	font-size: 1.2em;
+	text-align: left;
+	padding: 2% 3% 2% 2%;
+	color: #fff;
+}
+div.review a img
+{
+	width:82%;
+}
+span.arrow-up, span.arrow-down
+{
+	margin:-9% auto;
+}
+div.review-content
+{
+	position:absolute;
+	z-index:9999;
+	width:100%;
+}
+#CDSWIDSSP
+{
+	width:100% !important;
+	border:none;
+}
+#CDSWIDSSP .widSSPData
+{
+	padding:7px 7% 7px 7%;
+	border-radius:0 0 0.5em 0.5em;
+	border:solid 3px #c4c4c4 !important;
+}
+p.place-title
+{
+	word-spacing:4px;
+	font-size:3em;
+	color:#fff;
+	text-align:left;
+	font-weight:200;
+}
+div.placesvist
+{
+	position: absolute;
+	width: 100%;
+	bottom:11em;
+}
+div.gery-box
+{
+	background-color:rgba(100, 197, 196, 0.9);
+	padding:40px 30px 40px 60px;
+	text-align:left;
+	border-radius:2px;
+}
+div.gery-box table
+{
+	text-align:left;
+	font-size:1.1em;
+	color:#fff;
+}
+div.gery-box table a
+{
+	color:#fff;
+}
+div.gery-box table a:hover
+{
+	color:#fff;
+	text-decoration:underline;
+}
+div.footer
+{
+	background-color:rgba(234, 232, 231,0.9);
+	position:absolute;
+	z-index:999;
+	width: 100%;
+	bottom:0;
+	font-size:1em;
+	padding:1.5em 0;
+}
+div.footer-relative
+{
+	position: relative !important;
+	z-index: 0 !important;
+	background-color:rgba(234, 232, 231,0.9);
+	font-size:1em;
+	padding:1.5em 0;
+}
+div.part-footer a
+{
+	color:inherit;
+}
+div.part-footer a:hover
+{
+	text-decoration: underline;
+}
+div.part-footer img
+{
+	margin-top: 40%;
+}
+div.foot-text h3
+{
+	font-size:1.1em;
+}
+/********** about us ***********/
+div.aboutus
+{
+	background-image:url(../images/AboutUs_BG.jpg);
+	background-repeat:no-repeat;
+	height:100vh;
+	background-size:100% 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+div.about-text
+{
+	background-color:rgba(108, 108, 108, 0.8);
+	padding-top:2em;
+	padding-bottom:2em;
+	height: 73vh;
+	display:table;
+}
+div.about-description
+{
+	display: table-cell;
+	vertical-align: middle;
+	font-size: 1.6em;
+}
+div.about-text p
+{
+	color:#fff;
+	font-size:1.2em;
+	margin-top:1em;
+	margin-bottom:1em;
+}
+p.page-title
+{
+	margin:0;
+}
+p.page-title a
+{
+	font-size:2em;
+	color:#999999;
+	text-decoration: none;
+	line-height: 30px;
+}
+p.page-title a span 
+{
+	font-size:16px;
+}
+p.page-title a span span:hover
+{
+	text-decoration: underline;
+}
+div.page-category
+{
+	background-color:rgba(255,255,255,0.6) !important;
+	padding-top:2em;
+	padding-bottom:2em;
+}
+div.page-category-absolute
+{
+	background-color: rgba(240, 240, 240, 0.9);
+	position: absolute;
+	z-index: 999;
+	width: 100%;
+	padding-top:2em;
+	padding-bottom:2em;
+}
+div.page-category ul a, div.page-category-absolute ul a
+{
+	display:block;
+	background-color:#616161;
+	padding:0.6em 1.1em;
+	color:#fff;
+	border-radius: 4px;
+}
+div.page-category ul a:hover, div.page-category-absolute ul a:hover
+{
+	background-color: #9d2321;
+}
+ul.share
+{
+	margin-top:1em;
+}
+/****** room ******/
+img.parent-arrow
+{
+	margin-top: -3em;
+	margin-right: 16%;
+}
+div.room-category
+{
+	position:absolute;
+	z-index:9;
+	width:100%;
+	background-color:rgba(255,255,255,0.6);
+	padding-top:2em;
+	padding-bottom:2em;
+}
+div.room-category p a:hover,div.page-category p a:hover
+{
+	text-decoration:none;
+	color:#9d2321;
+}
+div.room-category p a.room-active,div.page-category p a.room-active
+{
+	text-decoration:none;
+	color:#9d2321;
+}
+div.room-slider,#googleMap,div.attraction-slider
+{
+	height:84vh;
+}
+div.room-caption
+{
+	margin:100px auto;
+	width:14%;
+}
+div.room-info
+{
+	font-size:18px;
+	padding:15px 0 15px 0;
+	width:180px;
+	margin:0 auto;
+	border-radius:3px;
+}
+div.room-info a
+{
+	color:#fff; 
+	display:block;
+	border:solid 2px #fff;
+	padding-top:10px;
+	border-radius:2px;
+	padding-bottom:10px;
+}
+div.room-info a:hover
+{
+	display:block;
+	text-decoration:none;
+	background-color:#9d2321;
+}
+a.link-dollar:hover
+{
+	text-decoration:none;
+}
+div.dollar
+{
+	margin:40px auto;
+	width:150px;
+	height:150px;
+	border-radius:75px;
+	background-color:#fff;
+	text-align:center;
+	padding-top:30px;
+}
+div.dollar h3
+{
+	color:#000;
+	font-size:26px;
+	margin-top:5px;
+	text-shadow:none;
+}
+div.dollar span
+{
+	font-size:14px !important;
+	display:block;
+	padding-top:15px;
+	color:#000;
+	text-shadow:none;
+}
+/********** Room Information ******/
+/*slider ***/
+
+div.information-slider
+{
+	height: 60.5vh;
+}
+#slider-thumbs ul
+{
+	padding:0;
+	margin:0;
+}
+#slider-thumbs ul.list-inline>li
+{
+	padding:0 !important;
+	margin:0 !important;
+}
+#slider-thumbs ul.list-inline>li a
+{
+	 display: inline-block;
+    background: black;
+    padding: 0;
+    cursor: pointer;
+}
+#slider-thumbs ul.list-inline>li img
+{
+	width: 100%;
+	height:auto;
+	opacity: 0.6;
+	display: block;
+	-webkit-transition: all 0.2s linear;
+       -moz-transition: all 0.2s linear;
+        -ms-transition: all 0.2s linear;
+         -o-transition: all 0.2s linear;
+            transition: all 0.2s linear;
+}
+#slider-thumbs ul.list-inline>li img:hover
+{
+	opacity: 1;
+}
+#slider-thumbs ul.list-inline>li a.selected img 
+{
+	border:solid 2px #c4c4c4;
+	opacity: 1;
+}
+div.room-information
+{
+	height: 72vh;
+}
+div.deluxe-bg
+{
+	background-image: url('../images/deluxe_bg.jpg');
+	height: 100%;
+	background-size: cover;
+	padding-top:1.5em;
+	padding-left:2em;
+	padding-right: 2em;
+}
+div.superior-bg
+{
+	background-image: url('../images/super_bg.jpg');
+	height: 100%;
+	background-size: cover;
+	padding-top:1.5em;
+	padding-left:2em;
+	padding-right: 2em;
+}
+div.roomtype-title
+{
+	width: 100%;
+	display: inline-block;
+}
+div.roomtype-title h3
+{
+	margin-top: 0.4em;
+}
+div.roomtype-title a
+{
+	background-color:#9d2321;
+	color:#fff;
+}
+div.roomtype-title a:hover
+{
+	background-color:#616161;
+	color:#fff;
+}
+div.roomtype-information
+{
+	max-height: 42em;
+	position: relative;
+	display:block;
+	overflow-y: scroll;
+	overflow-x:hidden;
+	padding-right:4px;
+}
+
+#style-1::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+
+#style-1::-webkit-scrollbar
+{
+	width: 8px;
+	/*background-color: #F5F5F5;*/
+}
+
+#style-1::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+div.roomtype-information p
+{
+	font-size:1.2em;
+	line-height: 2em;
+}
+div.roomtype-information table
+{
+	border-collapse:separate; 
+	border-spacing:0 0.6em;
+}
+div.roomtype-information h4,span.avb-title
+{
+	font-weight:bold;
+	font-size:1.2em;
+}
+.line-divider
+{
+	border:solid 1.9px #666666;
+	color:#666;
+}
+ul#double{
+			width:100%;
+			margin-bottom:20px;
+			/*overflow:hidden;*/
+			padding:0; margin-left:1.5em;
+		}
+		ul#double li{
+			line-height:2em;
+			float:left;
+			padding-right:0.2em;
+			list-style-type:disc;
+		}
+		#double li  { width:50%;} 
+		#triple li  { width:33.333%; } 
+		#quad li    { width:25%; } 
+		#six li     { width:16.666%; } 
+/********** Google Map ********/
+/*** ***/
+div.contact-form
+{
+	width:30%; position:absolute; z-index:999; margin-top:-35em; margin-left:70%;
+	padding:1% 2% 2% 2%;
+	background-color: rgba(240, 240, 240, 0.8) !important;
+}
+/*********** Attraction **********/
+div.attraction-slider a
+{
+	background:none !important;
+	opacity:1 !important;
+}
+div.attraction-slider a span img
+{
+	display:block; position:absolute; margin-top:-30px; margin-left:-5px;
+}
+div.attraction-map
+{
+	height: 40vh;
+}
+div.attraction-text
+{
+	padding:0.5em 1em;
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+div.view-map
+{
+	display: none;
+}
+/************** promotions ***********/
+div.promotion
+{
+	background-image:url(../images/super_bg.jpg);
+	background-repeat:no-repeat;
+	height: 72vh;
+	background-size:100% 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+}
+/****** Mobile menu *********/
+div.mb-logo
+{
+	display:none;
+}
+div.mb-menu
+{
+	display: none;
+	background-color: #9d2321;
+}
+.menu-title
+{
+	color:#fff !important;
+}
+div.mb-menu ul li a
+{
+	color:#6e6e6e;
+}
+div.mb-menu ul li a:hover
+{
+	background: #9d2321;
+	color:#fff;
+}
+div.icon-menu button span
+{
+	background-color: #fff;
+}
+.navbar-collapse
+{
+	position: absolute;
+	z-index: 9999;
+	width: 100%;
+	background-color: #fff;
+}
+/***** sitemap *****/
+ul.list-sitemap li
+{
+	color:#fff;
+}
+ul.list-sitemap li a
+{
+	line-height: 2em;
+	color:#fff;
+}
+ul.list-sitemap li a:hover
+{
+	text-decoration: underline;
+}
+@media only screen and (min-width : 1240px) 
+{
+	div.page-category,div.room-category, div.about-text,div.footer-relative,div.footer,div.page-category-absolute
+	{
+		padding-left:4%;
+		padding-right: 4%;
+	}
+}
+@media only screen 
+and (min-width : 1240px) 
+and (max-width : 1500px)
+{
+	p.copyright
+	{
+		font-size: 0.9em;
+	}
+	div.menu ul li a
+	{
+		padding-left: 22%;
+	}
+	/*** home ****/
+	div.placesvist
+	{
+		bottom: 10.5em;
+	}
+	p.place-title
+	{
+		font-size:2.8em;
+	}
+	div.footer,div.footer-relative
+	{
+		font-size: 0.9em;
+	}
+	div.room-slider,#googleMap,div.attraction-slider
+	{
+		height:85vh;
+	}
+	div.room-caption
+	{
+		width: 20%;
+	}
+	div.about-text
+	{
+		height: 72vh;
+	}
+	div.about-description
+	{
+		font-size: 1.4em;
+	}
+	/******* Room Information ******/
+	div.room-information
+	{
+		height: 70vh;
+	}
+	#slider-thumbs ul.list-inline>li img
+	{
+		height: 8.8vh;
+	}
+	/***** Attraction ********/
+	div.attraction-text
+	{
+		line-height: 1.4em;
+		font-size: 1.1em;
+	}
+}
+@media only screen 
+and (min-width : 992px) 
+and (max-width : 1240px)
+{
+	h3
+	{
+		font-size: 1.2em;
+	}
+	div.mb-logo
+	{
+		display: none;
+	}
+	p.place-title
+	{
+		font-size:2.5em;
+	}
+	div.menu ul li a
+	{
+		padding-left: 18%;
+		font-size: 1.2em;
+	}
+	div.footer,div.footer-relative
+	{
+		font-size: 0.9em;
+	}
+	/******** home ******/
+	div.placesvist
+	{
+		bottom: 10.5em;
+	}
+	div.red-box
+	{
+		padding: 1em;
+	}
+	/******** About us *********/
+	div.about-text
+	{
+		height: 71vh;
+	}
+	div.about-description
+	{
+		font-size: 1.2em;
+	}
+	/******** Room Information ********/
+	img.parent-arrow
+	{
+		margin-right: 10%;
+	}
+	div.room-information
+	{
+		height: 66.5vh;
+	}
+	div.information-slider
+	{
+		height: 59vh;
+	}
+	div.roomtype-information
+	{
+		max-height: 40em;
+	}
+	div.roomtype-information p
+	{
+		font-size: 1em;
+		line-height: 1.8em;
+	}
+	div.roomtype-information table span.avb-small-text
+	{
+		font-size: 1em;
+	}
+	ul#double
+	{
+		font-size: 0.95em;
+	}
+	div.deluxe-bg,div.superior-bg
+	{
+		padding-left: 1em;
+		padding-right: 1em;
+	}
+	div.roomtype-information h4,span.avb-title
+	{
+		font-size:1.1em;
+	}
+	.btn
+	{
+		padding:4px 10px !important;
+	}
+	/******* Attraction ******/
+	div.attraction-text
+	{
+		line-height: 1.4em;
+		font-size: 1em;
+	}
+
+}
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 992px)
+{
+	/******* tablet menu *********/
+	h3
+	{
+		font-size: 1.4em;
+	}
+	div.tablet-menu,div.mb-logo
+	{
+		display: block;
+	}
+	div.tablet-menu p
+	{
+		background-color: #9e2925;
+		padding:1em 1.5em;
+		color:#fff;
+		font-size: 1.1em;
+	}
+	div.tablet-menu ul
+	{
+		padding:0;  margin:0;
+		position: absolute;
+		z-index:999;
+		background-color:#fff;
+		width: 100%;
+		font-size: 1.1em;
+	}
+	div.tablet-menu ul li
+	{
+		list-style-type: none;
+		line-height: 3em;
+	}
+	div.tablet-menu ul li a
+	{
+		display: block;
+		color: #6e6e6e;
+		padding-left:1.5em;
+		padding-right:1.5em;
+	}
+	div.tablet-menu ul li a:hover
+	{
+		background-color: #9e2925;
+		color:#fff;
+	}
+	div.room-slider, #googleMap, div.attraction-slider
+	{
+		height: 70vh;
+	}
+	div.room-caption
+	{
+		width: 25%;
+	}
+	/*** room Info *****/
+	div.room-information
+	{
+		height: auto;
+	}
+	/**** home *****/
+	div.page-category,div.room-category
+	{
+		padding-top:1em;
+		padding-bottom:1em;
+	}
+	div.footer,div.footer-relative
+	{
+		font-size: 0.9em;
+	}
+	div.side-content
+	{
+		display:none;
+	}
+	div.main-content,div.aboutus
+	{
+		width:100%;
+		height: auto;
+	}
+	div.footer,div.footer-relative
+	{
+		font-size: 0.9em;
+	}
+	div.contact-form
+	{
+		width: 40%;
+		margin-left:60%;
+	}
+	div.about-text,div.promotion
+	{
+		height: 60vh;
+	}
+	div.about-description
+	{
+		font-size: 1.2em;
+	}
+	/******* Room Information ******/
+	img.parent-arrow
+	{
+		margin-right: 5%;
+	}
+	div.room-information
+	{
+		height: 55vh !important;
+	}
+	div.information-slider
+	{
+		height: 46vh !important;
+	}
+	div.roomtype-information h4,span.avb-title
+	{
+		font-size:1.1em;
+	}
+	div.roomtype-information
+	{
+		max-height: 43vh !important;
+	}
+	div.roomtype-information p,ul#double
+	{
+		font-size: 1em;
+		line-height: 1.8em;
+	}
+	#slider-thumbs ul.list-inline>li img
+	{
+		height: 9vh !important;
+	}
+	 div.deluxe-bg,div.superior-bg
+	 {
+	 	padding-bottom: 1em;
+	 	padding-left: 1em;
+	 	padding-right: 1em;
+	 }
+	 /****** Attraction ****/
+	 div.attraction-text
+	{
+		line-height: 1.4em;
+		font-size: 1em;
+	}
+}
+@media only screen 
+and (min-width : 480px) 
+and (max-width : 768px)
+{
+	/*#homeslide-arrow
+	{
+		display: block;
+	}*/
+	div.no-mobile
+	{
+		display: none;
+	}
+	div.mb-logo
+	{
+		display:block;
+	}
+	div.mb-menu
+	{
+		display: block;
+	}
+	div.mb-padding0
+	{
+		padding-left:0;
+	}
+	div.mb-footer
+	{
+		position: relative !important;
+		bottom:auto !important;
+		width: auto !important;
+	}
+	div.home-slider
+	{
+		height: 40vh !important;
+		position: relative;
+		z-index: 999;
+	}
+	div.mb-downtown
+	{
+		width: 100%;
+	}
+	div.placesvist
+	{
+		position: relative;
+		bottom:0 !important;
+		width: auto;
+	}
+	div.red-box
+	{
+		padding:1.2em 1em 1.2em 1em;
+	}
+	div.red-box p
+	{
+		font-size: 1.4em;
+	}
+	span.arrow-up, span.arrow-down
+	{
+		margin:-5% auto;
+	}
+	div.review a
+	{
+		padding:1% 2% 1% 2%;
+	}
+	div.review a img
+	{
+		width: 45%;
+	}
+	div.home-content
+	{
+		height: auto;
+	}
+	div.side-content
+	{
+		display:none;
+	}
+	p.place-title
+	{
+		font-size: 2em !important;
+	}
+	div.gery-box
+	{
+		padding:20px;
+	}
+	/*** ***/
+	div.main-content,div.aboutus
+	{
+		width:100%;
+		height: auto;
+	}
+	div.part-footer img
+	{
+		margin:2em auto;
+		display:block;
+	}
+	div.contact-form
+	{
+		position:relative;
+		z-index: 0;
+		width:100%;
+		margin-top:0px !important;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	div.room-slider,#googleMap,div.attraction-slider
+	{
+		height: 30em !important;
+	}
+	div.about-text
+	{
+		height: 65vh !important;
+		padding-top: 1em !important;
+		padding-bottom: 1em !important;
+	}
+	div.about-description
+	{
+		font-size: 1.2em !important;
+	}
+	div.page-category,div.room-category
+	{
+		padding-top: 1em !important;
+		padding-bottom: 1em !important;
+	}
+	p.page-title a
+	{
+		font-size:1.4em !important;
+		line-height: 20px !important;
+	}
+	p.page-title a span 
+	{
+		font-size:12px;
+	}
+	ul.share
+	{
+		margin-top:0.2em;
+	}
+	/********* Room *********/
+	img.parent-arrow
+	{
+		margin-right: 0em;
+		margin-top:-2.5em;
+	}
+	div.room-caption
+	{
+		margin:40px auto !important;
+		width:30%;
+	}
+	div.room-info
+	{
+		font-size:16px !important;
+		width:140px;
+		padding:5px 0 5px 0;
+	}
+	div.room-info a
+	{
+		padding-top:6px;
+		padding-bottom: 6px;
+	}
+	div.dollar
+	{
+		margin:10px auto !important;
+		width:100px !important;
+		height:100px !important;
+		border-radius:50px !important;
+		background-color:#fff;
+		text-align:center;
+		padding-top:14px !important;
+	}
+	div.dollar h3
+	{
+		color:#000;
+		font-size:18px !important;
+		/*margin-top:px !important;*/
+		font-size: 16px !important;
+		text-shadow:none;
+	}
+	div.dollar span
+	{
+		font-size:12px !important;
+		display:block !important;
+		padding-top:15px !important;
+		margin-top: 4px !important;
+		color:#000;
+		text-shadow:none;
+	}
+	/********* Room Information ******/
+	div.deluxe-bg,div.superior-bg
+	{
+		padding-bottom: 1em !important;
+	}
+	div.roomtype-information
+	{
+		height: 30em !important;
+	}
+	div.information-slider
+	{
+		height: 30vh;
+	}
+	div.room-information
+	{
+		height: auto !important;
+	}
+	#slider-thumbs ul.list-inline>li img
+	{
+		height: auto !important;
+	}
+	/********** Attraction *********/
+	div.view-map
+	{
+		display: block;
+	}
+	div.attraction-map
+	{
+		display: none;
+	}
+	.view-map a {
+	    display: block;
+	    background-color: #666666;
+	    width: 32%;
+	    color: #fff;
+	    border-radius: 2px;
+	    font-size: 1.2em;
+	    padding: 0.4em;
+	    text-align:center;
+	}
+	div.attraction-text
+	{
+		line-height: 1.4em;
+		font-size: 1em;
+	}
+}
+/********** Mobile Size ***********/
+@media only screen and (max-width : 480px) 
+{
+	/*#homeslide-arrow
+	{
+		display: block;
+	}*/
+	h3
+	{
+		font-size: 1.1em !important;
+	}
+	div.no-mobile,img.parent-arrow
+	
+	{
+		display: none;
+	}
+	div.mb-menu,div.mb-logo
+	{
+		display: block;
+	}
+	.navbar-toggle
+	{
+		padding: 9px 4px;
+	}
+	div.mb-padding0
+	{
+		padding-left:0;
+		padding-right: 5px;
+	}
+	div.mb-footer
+	{
+		position: relative !important;
+		bottom:auto !important;
+		width: auto !important;
+	}
+	div.home-slider
+	{
+		height: 35vh;
+		position: relative;
+		z-index: 999;
+	}
+	div.mb-downtown
+	{
+		width: 100%;
+	}
+	div.placesvist
+	{
+		position: relative;
+		bottom:0 !important;
+		width: auto;
+	}
+	div.red-box
+	{
+		padding:1.1em 1em 1.1em 1em;
+	}
+	div.red-box p
+	{
+		font-size: 1.4em;
+	}
+	span.arrow-up, span.arrow-down
+	{
+		margin:-6% auto;
+	}
+	div.review a
+	{
+		padding:0.5em 1em 0.5em 1em;
+	}
+	div.review a img
+	{
+		width: 50%;
+	}
+	div.home-content
+	{
+		height: auto;
+	}
+	div.side-content
+	{
+		display:none;
+	}
+	p.place-title
+	{
+		font-size: 1.6em !important;
+	}
+	div.gery-box
+	{
+		padding:20px;
+	}
+	div.gery-box table
+	{
+		font-size: 0.98em;
+		font-weight: 200;
+	}
+	/**** ****/
+	div.side-content
+	{
+		display:none;
+	}
+	.carousel-indicators
+	{
+		display: none;
+	}
+	div.main-content,div.aboutus
+	{
+		width:100%;
+		height: auto;
+	}
+	div.part-footer img
+	{
+		margin:2em auto;
+		display:block;
+	}
+	div.contact-form
+	{
+		position:relative;
+		z-index: 0;
+		width:100%;
+		margin-top:0px !important;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	div.room-slider,#googleMap
+	{
+		height: 30em !important;
+	}
+	div.page-category,div.room-category
+	{
+		padding-top: 1em !important;
+		padding-bottom: 1em !important;
+	}
+	p.page-title
+	{
+		margin:0;
+	}
+	p.page-title a
+	{
+		font-size:1.1em;
+		line-height: 17px;
+	}
+	p.page-title a span 
+	{
+		font-size:12px;
+	}
+	div.page-category ul a, div.page-category-absolute ul a
+	{
+		padding:0.6em 1em;
+		font-size:12px;
+	}
+	ul.share
+	{
+		margin-top:0;
+		margin-bottom: 0;
+	}
+	ul.share li
+	{
+		margin-top:0.2em;
+		padding-left:0;
+	}
+	div.about-text
+	{
+		padding-top:1em;
+		padding-bottom: 1em;
+	}
+	div.about-description,div.roomtype-information p
+	{
+		font-size: 1em !important;
+	}
+	/********* Room *********/
+	div.room-slider div.fill
+	{
+		height: 22em !important;
+	}
+	div.room-caption
+	{
+		width:100%;
+		left:auto !important;
+		right: auto !important;
+		padding-bottom: 0;
+		margin-bottom: -1.8em !important;
+	}
+	div.room-info
+	{
+		font-size:16px;
+		width:100% !important;
+	}
+	div.dollar
+	{
+		display: none;
+	}
+	div.mb-dollar
+	{
+		display:block;
+		margin:48px auto !important;
+		font-size:1.2em;
+		text-align:center;
+		background-color:#fff;
+		padding-top: 0em;
+		padding-bottom: 0em;
+		color:#000;
+		text-shadow:none;
+	}
+	div.mb-dollar span
+	{
+		display:block;
+		padding-top:0.6em;
+		padding-bottom: 0.6em;
+	}
+	div.info-mobile
+	{
+		margin-bottom: -8.8em !important;	
+		padding:0 !important;
+	}
+	div.info-mobile a
+	{
+		border:0px;
+		background-color: #666666;
+		margin:0;
+		padding-top: 0.8em;
+		padding-bottom: 0.8em;
+		border-radius: 0px;
+	}
+	div.info-mobile a:hover
+	{
+		background-color: #666666;
+	}
+	div.info-mobile1
+	{
+		padding:0 !important;
+	}
+	div.info-mobile1 a
+	{
+		background-color: #9d2321;
+		padding-top: 0.8em;
+		padding-bottom: 0.8em;
+		border:0px;
+		border-radius: 0;
+	}
+	/********** Room Information ******/
+	div.deluxe-bg,div.superior-bg
+	{
+		padding-left: 1em !important;
+		padding-right: 1em !important;
+		padding-bottom:1em !important;
+	}
+	div.room-information
+	{
+		height: auto !important;
+	}
+
+	div.information-slider
+	{
+		height: 20em !important;
+	}
+	div.roomtype-information
+	{
+		max-height: 45vh;
+	}
+	div.roomtype-information table span.avb-small-text
+	{
+		font-size: 0.9em;
+	}
+	ul#double
+	{
+		font-size: 0.9em;
+	}
+	.line-divider
+	{
+		margin-top: 5px !important;
+    	margin-bottom: 5px !important;
+	}
+	div.roomtype-information h4, span.avb-title
+	{
+		font-size: 1em;
+	}
+	#slider-thumbs ul.list-inline>li img
+	{
+		height: auto !important;
+	}
+	.btn
+	{
+		padding: 4px 10px !important;
+	}
+	/********* Promotion **********/
+	div.about-text,div.promotion
+	{
+		height: 35em !important;
+	}
+	h1.discount-percent
+	{
+		font-size:8em;
+		color:#9d2321;
+		margin-top:0px;
+	}
+	.ca-container{
+		position:relative;
+		width:270px !important;
+		height:420px !important;
+	}
+	.ca-item{
+		position:relative;
+		float:left;
+		width:310px;
+		height:100%;
+		text-align:center;  
+	}
+	div.promo-top
+	{
+		width:100% !important;
+	}
+	div.promotion-content
+	{
+		background-color:#fff;
+		border-radius:5px;
+		margin-right:0px !important;
+		margin-left:0px !important;
+	}
+	p.mbpromo-booknow
+	{
+		margin-bottom:0;
+		margin-top:0.6em;
+	}
+	p.mbpromo-booknow a
+	{
+		border-radius:0.2em;
+		background-color: #9d2321;
+		padding-top:0.6em;
+		padding-bottom:0.6em;
+		color:#fff;
+		display:block;
+		text-align: center;
+	}
+	p.mbpromo-booknow a:hover
+	{
+		text-decoration: none;
+	}
+	div.right-promotext
+	{
+		padding-left:0;
+	}
+	div.romo-discount
+	{
+		background-color:#ede9e5;
+		border-radius:5px 5px 0 0;
+	}
+	div.promo-text
+	{
+		padding-left:10px;
+		padding-right:10px;
+		padding-top:10px;
+	}
+	div.promo-text p
+	{
+		text-align:left;
+		padding:0;
+		margin:0; 
+		font-size:85%;
+		line-height:1.6em;
+	}
+	p.percent
+	{
+		padding:5px 0px 0px 10px;
+		font-size:1.4em;
+	} 
+	div.limited-offer
+	{
+		margin-top:-10px;
+		padding-bottom:2px;
+	}
+	div.limited-offer p
+	{
+		font-size:88%;
+	}
+	div.copyright
+	{
+		display:none;
+	}
+	div.link
+	{
+		margin-top:4%;
+		margin-left:0.5%;
+		margin-right:0.5%;
+		border-radius:3px;
+		background-color:rgba(255, 255, 255, 0.8) !important;
+		height:2.90em;
+	}
+	div.link:hover  div.prev-link
+	{
+		border-right:2px solid rgba(255, 255, 255, 0.8);
+	}
+	a.prev-next:link, a.prev-next:link
+	{
+		text-decoration:none;
+	}
+	div.prev-link
+	{
+		float:left;
+		width:50%;
+		border-right:solid 2px #616161;
+	}
+	div.next-link
+	{
+		float:left;
+		width:50%;
+	}
+	a.prev-next
+	{
+		font-size:1.1em;
+		color:#333;
+		text-align:center;
+		display:block;
+		padding:0.7em 0 0.6em 0;
+	}
+	a.right-link:hover
+	{
+		text-decoration:none;
+		background-color:#9d2321;
+		border-radius:0px 4px 4px 0px;
+		color:#fff;
+	}
+	a.left-link:hover
+	{
+		text-decoration:none;
+		background-color:#9d2321;
+		border-radius:4px 0px 0px 4px;
+		color:#fff;
+	}
+	/******* Attraction *******/
+	div.view-map
+	{
+		display: block;
+	}
+	div.attraction-slider
+	{
+		height: 35vh !important;
+	}
+	div.attraction-map
+	{
+		display: none;
+	}
+	.view-map a {
+	    display: block;
+	    background-color: #666666;
+	    width: 32%;
+	    color: #fff;
+	    border-radius: 2px;
+	    font-size: 1em;
+	    padding: 0.4em;
+	    text-align:center;
+	}
+	div.attraction-text p,span#reading-more
+	{
+		line-height:1.4em;
+		font-size: 0.9em;
+	}
+	h3#location-title
+	{
+		font-size: 1.2em;
+	}
+	h4#location-distance
+	{
+		font-size: 1em;
+	}
+	/*** sitemap ****/
+	div.sitemap
+	{
+		height: 22em !important;
+	}
+
+}
+
+/********** Height Responsive ***********/
+@media only screen 
+and (min-height : 820px) 
+and (max-height : 890px)
+{
+	div.reservation div.form-group input,div.reservation div.form-group select
+	{
+		height: 2em;
+		margin-bottom: -2px;
+		margin-top: -2px;
+	}
+
+	div.reservation div.form-group .btn
+	{
+		margin-bottom: -1px;
+		margin-top: -1px;
+	}
+	div.menu ul li a
+	{
+		line-height: 2.6em;
+	}
+	div.information-slider
+	{
+		height: 58.5vh;
+	}
+	div.room-information {
+    	height: 69.5vh;
+	}
+	div.roomtype-information
+	{
+		height: 58vh;
+	}
+	ul.check-booking li
+	{
+		line-height: 1.19em;
+	}
+	div.about-text,div.promotion
+	{
+		height: 70vh;
+	}
+}
+@media screen and ( max-height: 820px )
+{
+	div.logo img
+	{
+		height:10.5em;
+	}
+	div.menu ul li a
+	{
+		padding-left:2em;
+		font-size:1.15em;
+		line-height:2.5em;
+		padding-left:24%;
+	}
+	p.copyright
+	{
+		margin-bottom:0.2em;
+		font-size: 0.9em;
+	}
+	div.reservation div.form-group
+	{
+		margin-bottom: 0.3em;
+	}
+	div.reservation div.form-group .btn-action
+	{
+		font-size: 0.9em;
+	}
+	div.reservation div.form-group input,div.reservation div.form-group select
+	{
+		height: 2em;
+	}
+	p.reservation-title
+	{
+		padding:0.4em 0;
+		margin-top: 0.4em;
+		margin-bottom: 0.4em;
+	}
+	div.placesvist
+	{
+		bottom: 9.9em;
+	}
+	p.place-title
+	{
+		font-size:2.5em;
+	}
+	div.footer,div.footer-relative
+	{
+		padding:1.2em 0;
+	}
+	div.about-text,div.promotion
+	{
+		height: 70vh;
+	}
+	div.room-slider,#googleMap,div.attraction-slider
+	{
+		height: 82vh;
+	}
+	div.contact-form
+	{
+		margin-top:-30em;
+	}
+	div.page-category,div.room-category,div.page-category-absolute
+	{
+		padding-top: 1.5em;
+		padding-bottom: 1.5em;
+	}
+	div.dollar
+	{
+		margin:10px auto;
+		width:120px;
+		height:120px;
+		border-radius:60px;
+		padding-top:10px;
+	}
+	div.dollar h3
+	{
+		padding-top:-10px;
+		font-size:20px;
+		margin-top:-1px;
+	}
+	div.dollar span
+	{
+		display:block;
+		margin-top:10px;
+		font-size:14px !important;
+	}
+	/******* Room Information *********/
+	div.room-information
+	{
+		height: 68vh;
+	}
+	div.information-slider
+	{
+		height: 57vh;
+	}
+	div.roomtype-information
+	{
+		max-height: 56vh;
+	}
+	#slider-thumbs ul.list-inline>li img
+	{
+		height: 10.8vh;
+	}
+}
+@media screen and ( max-height: 780px )
+{
+	div.logo img
+	{
+		height: 10em;
+	}
+}
+
+@media screen and ( max-height: 760px )
+{
+	div.logo img
+	{
+		height: 9em;
+	}
+	div.footer-logo img
+	{
+		height: 4em;
+	}
+	div.reservation div.form-group .btn-action
+	{
+		font-size: 0.8em;
+	}
+	div.about-text, div.promotion
+	{
+		height: 68vh;
+	}
+	ul.check-booking li
+	{
+		line-height: 1.2em;
+		font-size: 0.95em;
+	}
+}
+@media screen and ( max-height: 720px )
+{
+	div.menu ul li a
+	{
+		font-size: 1.1em;
+	}
+	ul.check-booking li
+	{
+		font-size: 0.9em;
+	}
+	div.reservation div.form-group .btn-action
+	{
+		padding:3px 6px;
+	}
+	div.logo img
+	{
+		height:8.2em;
+	}
+	div.footer-logo img
+	{
+		height: 3.5em;
+	}
+}
+@media screen and ( max-height: 680px )
+{
+	div.logo img
+	{
+		height:8.5em;
+	}
+	div.footer-logo
+	{
+		display:none;
+	}
+	div.menu ul li a
+	{
+		padding-left:2em;
+		font-size:1.1em;
+		line-height:2.4em;
+		padding-left:25%;
+	}
+	ul.check-booking li
+	{
+		font-size: 0.9em;
+		line-height: 1.2em;
+	}
+	p.reservation-title
+	{
+		font-size: 1.1em;
+	}
+	p.copyright
+	{
+		font-size: 0.9em;
+		margin-top:14px;
+	}
+	span.poweredby,span.sitemap
+	{
+		font-size:0.9em;
+		display: block;
+		margin-top:-4px;
+	}
+	span.sitemap a
+	{
+		font-size:0.9em;
+		color:#9e2321;
+	}
+	span.sitemap a:hover
+	{
+		text-decoration: underline;
+	}
+	ul.check-booking
+	{
+		margin-bottom: 0.4em;
+	}
+
+	div.gery-box
+	{
+		padding:30px;
+	}
+	div.footer,div.footer-relative
+	{
+		font-size: 0.9em;
+	}
+	div.room-slider,#googleMap,div.attraction-slider
+	{
+		height: 80vh;
+	}
+	div.contact-form
+	{
+		margin-top:-25em;
+		padding: 0% 2% 1% 2%;
+	}
+	div.room-caption
+	{
+		margin:30px auto;
+	}
+	div.room-info 
+	{
+		font-size: 16px;
+		padding: 12px 0 12px 0;
+		width: 140px;
+		margin: 0 auto;
+		border-radius: 3px;
+	}
+	/******** Rooom Information *****/
+	div.room-information
+	{
+		height: 63vh;
+	}
+	div.information-slider
+	{
+		height: 52vh;
+	}
+	div.roomtype-information
+	{
+		max-height: 24em;
+	}
+	/**** about ****/
+	div.about-text,div.promotion
+	{
+		height: 64vh;
+	}
+	div.about-description
+	{
+		font-size: 1.1em;
+	}
+
+}
+@media screen and ( min-height: 930px )
+{
+	p.copyright
+	{
+		margin-top:1.5em;
+	}
+}
